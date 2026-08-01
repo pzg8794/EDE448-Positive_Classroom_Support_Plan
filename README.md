@@ -12,10 +12,8 @@ This repository contains the editable LaTeX source and reference library for the
 
 ## Files
 
-- [`main.tex`](main.tex): complete journal-style paper and original TikZ diagrams
+- [`main.tex`](main.tex): complete journal-style paper and two original TikZ diagrams
 - [`references.bib`](references.bib): course, research, and camp-evidence references
-- [`assets/identity-beads-evidence-still-life.png`](assets/identity-beads-evidence-still-life.png): public-safe conceptual visual used in the paper
-- [`assets/README.md`](assets/README.md): visual provenance and use boundaries
 
 ## Paper Focus
 
