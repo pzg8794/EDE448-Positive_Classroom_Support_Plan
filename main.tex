@@ -1,0 +1,361 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.62in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,fit,positioning}
+\usepackage[natbibapa]{apacite}
+
+\definecolor{PrimaryRed}{HTML}{8B1E1E}
+\definecolor{DeepNavy}{HTML}{15324A}
+\definecolor{SoftBlue}{HTML}{DDEEFF}
+\definecolor{SoftGreen}{HTML}{E4F1E8}
+\definecolor{SoftGold}{HTML}{F8EDC7}
+\definecolor{SoftRose}{HTML}{F5E2E7}
+\definecolor{SoftGray}{HTML}{F4F4F4}
+\definecolor{MidTeal}{HTML}{287D7A}
+
+\hypersetup{colorlinks=true,linkcolor=DeepNavy,urlcolor=DeepNavy,citecolor=DeepNavy}
+\setlength{\parindent}{0pt}
+\setstretch{1.08}
+\setlist[itemize]{leftmargin=0.23in,itemsep=0.025in,topsep=0.05in}
+\setlist[enumerate]{leftmargin=0.28in,itemsep=0.025in,topsep=0.05in}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\bibliographystyle{apacite}
+
+\newcommand{\reviewsection}[1]{%
+  \Needspace{4\baselineskip}
+  \vspace{0.08in}\noindent{\normalsize\bfseries\color{PrimaryRed}#1}
+  \par\vspace{0.025in}
+}
+
+\newcommand{\plansubhead}[1]{%
+  \Needspace{3\baselineskip}
+  \vspace{0.04in}\noindent{\small\bfseries\color{DeepNavy}#1}
+  \par\vspace{0.015in}
+}
+
+\newcommand{\tableheaderthree}[3]{%
+  \rowcolor{PrimaryRed}
+  \color{white}\bfseries #1 &
+  \color{white}\bfseries #2 &
+  \color{white}\bfseries #3 \\
+}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\newgeometry{margin=0.7in}
+\thispagestyle{empty}
+
+\begin{center}
+{\large University of Rochester\\}
+{\normalsize Warner School of Education\\[0.15in]}
+
+{\color{PrimaryRed}\rule{\textwidth}{1.4pt}}\\[0.12in]
+{\Huge\bfseries Words That Have Evidence}\\[0.15in]
+{\huge A Dignity-Centered Positive\\[0.06in]
+Classroom Support Plan}\\[0.12in]
+{\Large Positive Self-Talk, Identity Recognition,\\[0.04in]
+and Access-to-Agency}\\[0.14in]
+{\large EDE 448 --- Module 2 Assignment}\\[0.10in]
+
+\vfill
+
+{\color{PrimaryRed}\rule{0.78\textwidth}{0.7pt}}\\[0.18in]
+
+\colorbox{SoftBlue}{%
+\parbox{0.88\textwidth}{%
+\centering\small\vspace{0.02in}
+\textbf{Positive Does Not Mean Pretending Everything Is Fine}\\[0.04in]
+Credible self-talk begins with real evidence, honors what a learner feels and communicates, and leads to a support, choice, or next action that actually exists.
+}%
+}
+\end{center}
+
+\vfill
+
+\begin{center}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\bfseries\RaggedLeft}p{1.85in} p{5.0in}}
+Student & Piter Zacari Garcia Bautista \\
+Assignment & Positive Classroom Support Plan \\
+Course & EDE 448 --- Communication and Positive Behavioral Supports for Students with Autism and Other Complex Needs \\
+Future Setting & Inclusive, technology-rich upper-elementary or middle school classroom \\
+Applied Experience & EDU486 Invisible Invaders camp and Identity Beads \\
+Interpretive Framework & Puzzle Plan, with EQUITAS at its heart \\
+Due Date & July 31, 2026, 11:59 PM EDT \\
+\end{tabular}
+\end{center}
+
+\vfill
+
+\begin{center}
+\begin{minipage}{0.92\textwidth}
+\centering\itshape
+The goal is to help students recognize evidence, communicate what they need, and author a fuller story about what they can do.\\
+{\color{PrimaryRed}\rule{4.2in}{0.8pt}}
+\end{minipage}
+\end{center}
+
+\vfill
+
+\begin{center}
+\begin{minipage}{0.95\textwidth}
+\small
+This plan is guided by my Puzzle Plan, an interdisciplinary framework that connects lived experience, education, data, and research so that no single label, behavior, observation, or score is mistaken for the whole learner. EQUITAS is the equity-centered heart of the Puzzle Plan. It asks whose knowledge is included, what context is missing, how power and bias shape interpretation, and whether a decision expands access, dignity, agency, and belonging. Through those connected commitments, positive self-talk becomes one part of accessible classroom design rather than a demand that students privately overcome public barriers.
+\end{minipage}
+\end{center}
+
+\restoregeometry
+\end{titlepage}
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+
+\reviewsection{What Makes a Classroom Support Truly Positive}
+
+My future classroom will include students who differ in communication, sensory processing, movement, executive functioning, language, culture, disability, chronic illness, prior technology access, energy, and comfort with group work. I will not measure a positive classroom by how consistently students look calm, attentive, cheerful, or socially typical. I will measure it by whether students can understand what is happening, communicate in dependable ways, use meaningful supports, enter rigorous learning, protect boundaries, repair harm, and remain recognized as full members of the community.
+
+This distinction matters for positive self-talk. A student who says, ``I cannot do this,'' may be expressing fear, overload, pain, missing background knowledge, an inaccessible first step, a history of being underestimated, or a correct judgment that the present conditions do not work. Replacing that sentence immediately with ``I am amazing'' may sound positive while ignoring the evidence. A stronger response begins with curiosity: What part feels impossible? What happened before? What tool, model, person, communication route, or pause would change the situation? What has the learner already done that can support a believable next statement?
+
+Positive behavior support is strongest when goals are socially meaningful and outcomes include quality of life, participation, collaboration, and sustainable change \citep{dunlap2012pbs}. First-hand accounts also warn that interventions can produce masking, shame, trauma, and weakened boundaries when adult-defined normality becomes the hidden goal \citep{gardner2017firsthand}. Positive self-talk must therefore increase a learner's choices and access. It cannot become forced optimism, emotional surveillance, or another way to make distress less visible to adults.
+
+\reviewsection{Positive Self-Talk Works Best When the Words Are Believable}
+
+Research gives me a more precise starting point than ``think positive.'' In a randomized field experiment with students in Grades 4--6, effort-focused self-talk supported mathematics performance for children with negative competence beliefs, whereas general ability-focused self-talk did not produce the same benefit \citep{thomaes2020effort}. That study does not prove that one phrase works for every learner or every task. It does suggest that believable language about effort and action may be more useful than broad claims about being inherently good at something.
+
+Work on reading intervention similarly treats recognizing negative thoughts and using positive self-talk as teachable self-regulation practices, while cautioning that instruction must not overload working memory or displace explicit academic teaching \citep{dahlleonard2023selftalk}. In my classroom, the language must therefore be brief, concrete, relevant to the task, and connected to an available action. Examples include:
+
+\begin{itemize}
+  \item ``I do not know the first step \textit{yet}; I can ask to see one.''
+  \item ``My body is giving me information; I can pause, adjust, and return.''
+  \item ``This result is evidence. I can test one change.''
+  \item ``I can use speech, typing, drawing, pointing, AAC, or a partner to show what I know.''
+  \item ``One difficult moment is not the whole story. I can name what I contributed.''
+\end{itemize}
+
+No learner will be required to say these words aloud, disclose an internal thought, or adopt a teacher-written affirmation. Self-talk may remain internal or be represented through text, symbols, AAC, gesture, a private card, a digital prompt, or partner-supported communication. Jorgensen's call to construct communicative competence means that the classroom must make those routes available throughout the day, including during stress, refusal, transition, and repair \citep{jorgensen2018competence}.
+
+\reviewsection{What Identity Beads Taught Me About Evidence and Recognition}
+
+The EDU486 Invisible Invaders camp made this idea concrete. On July 28, youth sieved saved sand, documented litter, examined tire-wear residue, participated in a synthetic-tissue filtration model, and discussed environmental questions. At the end of the day, the Identity Beads activity invited them to recognize forms of participation they had demonstrated, including designing, investigating, inventing, advocating, motivating, storytelling, bravery, care for others, and a self-described contribution \citep{campteam2026day3,campteam2026identity}.
+
+The beads did not need to say, ``I am good at science because an adult says so.'' They could support a more grounded sentence: ``I investigated because I compared what changed,'' or ``I advocated because I connected evidence to environmental action.'' The physical bead made the reflection visible, but the evidence gave the bead meaning. Our documentation also maintained an important boundary: a bead recognized a contribution from that day; it did not rank youth, diagnose a trait, or permanently define anyone's identity.
+
+That design aligns with Mercier and Carlone's distinction between Identi-Beads for self-recognition and Identi-Badges for recognition by others \citep{mercier2021identibeads}. Their account emphasizes multiple, fluid modes of STEM engagement and warns that recognition systems can become meaningless tokens or hierarchies if categories are treated as fixed or if adults notice only the most visible performances. Recognition should widen what counts as competence, including quiet contribution, care, advocacy, revision, and collaboration.
+
+Our camp's final recognition reinforced the same principle: identity grows through doing meaningful work, seeing oneself in that work, and being recognized by people who matter \citep{campteam2026showcase}. I cannot claim from our records that one activity caused a lasting identity change for any participant. I can say that the activity created a structured opportunity for evidence-based self-recognition without requiring youth to compete for one definition of a scientist.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{assets/identity-beads-evidence-still-life.png}
+\caption{A public-safe conceptual still life of Identity Beads, evidence cards, and a magnifying glass. The image is AI-generated rather than a camp photograph; bead colors represent multiple possible contributions, not fixed identities or rankings.}
+\label{fig:identity-beads}
+\end{figure}
+
+\reviewsection{The Evidence-Based Self-Talk Cycle}
+
+The cycle below turns positive self-talk into a process of reflection and access. A statement is not the starting point. The learner first notices what is happening, examines evidence and context, selects believable language in an accessible mode, uses a real support or next action, and reflects on what changed. The cycle can begin again with new evidence.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=0.18in,
+  cyclestep/.style={draw=DeepNavy, rounded corners=2pt, minimum width=1.25in,
+    text width=1.12in, minimum height=0.90in, align=center, font=\small},
+  flow/.style={-{Latex[length=2.3mm]}, line width=0.8pt, draw=DeepNavy},
+  audit/.style={draw=PrimaryRed, dashed, rounded corners=2pt, fill=SoftRose,
+    text width=6.55in, align=center, inner sep=5pt, font=\small}
+]
+\node[cyclestep, fill=SoftBlue] (notice) {\textbf{1. Notice}\\thought, feeling, body signal, or barrier};
+\node[cyclestep, fill=SoftGold, right=of notice] (evidence) {\textbf{2. Find Evidence}\\what happened, what helped, what is missing};
+\node[cyclestep, fill=SoftGreen, right=of evidence] (words) {\textbf{3. Choose Words}\\believable, specific, and accessible};
+\node[cyclestep, fill=SoftRose, right=of words] (act) {\textbf{4. Act or Access}\\use a support, boundary, pause, or next step};
+\node[cyclestep, fill=SoftBlue, right=of act] (reflect) {\textbf{5. Reflect}\\notice change and recognize contribution};
+\draw[flow] (notice) -- (evidence);
+\draw[flow] (evidence) -- (words);
+\draw[flow] (words) -- (act);
+\draw[flow] (act) -- (reflect);
+\coordinate (returnright) at ([yshift=0.24in]reflect.north);
+\coordinate (returnleft) at ([yshift=0.24in]notice.north);
+\draw[flow] (reflect.north) -- (returnright) -- node[above, font=\scriptsize, text=DeepNavy]{new evidence} (returnleft) -- (notice.north);
+\node[audit, below=0.22in of words] (audit) {\textbf{EQUITAS audit:} Whose evidence counts? Is the language chosen rather than forced? Is the support real and available? Did dignity, access, agency, and belonging increase?};
+\end{tikzpicture}
+\caption{An original five-step cycle for evidence-based positive self-talk. The EQUITAS audit remains active across every step.}
+\label{fig:self-talk-cycle}
+\end{figure}
+
+\reviewsection{My Prevent--Teach--Reinforce Classroom Plan}
+
+PTR gives this classroom plan an accountable structure \citep{dunlap2019ptr}. Positive self-talk is not isolated from classroom architecture. Adults must prevent unnecessary barriers, teach a usable reflection and communication process, and reinforce the process by making the learner's chosen support effective.
+
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{1.22in} >{\RaggedRight\arraybackslash}p{2.58in} >{\RaggedRight\arraybackslash}p{2.82in}}
+\tableheaderthree{PTR Component}{Teacher and Environment Commitments}{Student Access and Agency}
+\endfirsthead
+\tableheaderthree{PTR Component}{Teacher and Environment Commitments}{Student Access and Agency}
+\endhead
+Prevent &
+Make the lesson route visible; model the first step; reduce unnecessary language and speed pressure; provide sensory, movement, technology, and communication supports before distress; protect private participation. &
+Students can see what is required, choose among meaningful routes, keep an effective familiar tool, request more time or a break, observe first, pass, and re-enter without shame. \\
+\rowcolor{SoftGray}
+Teach &
+Model the difference among a thought, feeling, fact, need, and action. Use examples from ordinary academic errors. Teach learners to locate evidence, select believable words, and connect those words to a support or next move. &
+Students may create, select, type, point to, speak, sign, or internally use a phrase. They may reject an adult's wording and propose language that fits their experience. \\
+Reinforce &
+Make the communication effective; recognize observable contribution with consent; give specific private or public feedback according to preference; notice quiet and nontraditional participation; revise inaccessible routines. &
+Self-advocacy leads to an actual response. Recognition strengthens communication, contribution, repair, persistence, and belonging rather than eye contact, stillness, speed, or cheerful compliance. \\
+\end{longtable}
+\normalsize
+
+The Edutopia classroom-management session describes structure, predictability, relationships, transitions, and instructional clarity as central to classroom orchestration \citep{edutopiaClassroom}. That framing helps me locate many concerns in lesson design. It also applies to teachers: I need reflective language that lets me say, ``I do not understand this yet; I can gather evidence and ask the student,'' instead of defending the first interpretation because I am supposed to have every answer.
+
+\reviewsection{A Self-Talk and Access Menu}
+
+The menu is not a script students must memorize. It is a set of examples for co-creating language that remains honest and actionable.
+
+\small
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{1.47in} >{\RaggedRight\arraybackslash}p{2.55in} >{\RaggedRight\arraybackslash}p{2.55in}}
+\tableheaderthree{Moment or Message}{Evidence-Linked Language}{Support or Next Action}
+\endfirsthead
+\tableheaderthree{Moment or Message}{Evidence-Linked Language}{Support or Next Action}
+\endhead
+``I cannot do this.'' &
+``I do not know the first step yet. I can ask to see one.'' &
+Completed example, visual model, one direction, chosen partner, or teacher demonstration. \\
+\rowcolor{SoftGray}
+``Everyone is faster.'' &
+``Speed is not the learning goal. I can show my thinking through another route.'' &
+Remove unnecessary timing; offer typing, drawing, AAC, oral explanation, photograph, or extended processing time. \\
+Sensory load, pain, or fatigue &
+``My body is giving me information. I can adjust, pause, or use a lower-energy route.'' &
+Quieter location, sensory tool, movement, seating change, familiar device, break, or visible re-entry point. \\
+\rowcolor{SoftGray}
+An error or unexpected result &
+``This result is evidence. I can test one change.'' &
+Debugging guide, comparison example, material reset, peer consultation, or another trial. \\
+Peer conflict or boundary &
+``I can say stop, name what happened, and ask for help repairing it.'' &
+Speech, writing, symbols, AAC, private report, mediation, recovery time, and a clear re-entry plan. \\
+\rowcolor{SoftGray}
+Identity threat &
+``One moment is not the whole picture. I can name evidence of how I contributed.'' &
+Private evidence card, Identity Bead or digital symbol, portfolio artifact, peer recognition with permission, or teacher documentation. \\
+\end{longtable}
+\normalsize
+
+\reviewsection{Using Identity Beads Without Turning Identity Into a Reward System}
+
+I would adapt the camp activity as a weekly or project-end reflection, not as a token economy. Students could choose a bead, digital symbol, color, word, or no artifact at all. The process would be:
+
+\begin{enumerate}
+  \item Review broad, co-created contribution categories and invite student-defined additions.
+  \item Select evidence from the day or project: an observation, question, design move, revision, act of care, boundary, explanation, or contribution.
+  \item Choose an identity word or symbol that fits that evidence today.
+  \item Complete an optional stem such as, ``I was an investigator when I\ldots'' or ``I want to recognize that I\ldots'' through any accessible mode.
+  \item Choose whether the reflection stays private, enters a portfolio, or is shared.
+  \item Offer peer or adult recognition only when it cites observable evidence and respects the learner's preference.
+\end{enumerate}
+
+There will be no bead totals, leaderboards, required categories, public comparison, or assumption that one color permanently defines a learner. A student can choose several identities, create a new one, decline the activity, or change the meaning over time. Adults will actively notice contributions that schools often overlook, including listening, translating, regulating, questioning an assumption, supporting access, using AAC, protecting an evidence boundary, or returning after a difficult moment.
+
+\reviewsection{Routine-by-Routine Implementation}
+
+\small
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{1.02in} >{\RaggedRight\arraybackslash}p{1.93in} >{\RaggedRight\arraybackslash}p{2.15in} >{\RaggedRight\arraybackslash}p{1.46in}}
+\rowcolor{PrimaryRed}
+\color{white}\bfseries Routine &
+\color{white}\bfseries Prevent and Access &
+\color{white}\bfseries Self-Talk or Communication Route &
+\color{white}\bfseries Evidence to Review \\
+\endfirsthead
+\rowcolor{PrimaryRed}
+\color{white}\bfseries Routine &
+\color{white}\bfseries Prevent and Access &
+\color{white}\bfseries Self-Talk or Communication Route &
+\color{white}\bfseries Evidence to Review \\
+\endhead
+Arrival &
+Visible agenda, calm entry task, greeting options, consistent materials, private check-in. &
+``What do I need to begin?'' through speech, gesture, symbol, device, or private response. &
+Entry route, support selected, transition to first task. \\
+\rowcolor{SoftGray}
+Mini-lesson &
+Purpose, short model, one direction, visual example, processing time. &
+``I can identify one thing I understand and one thing I need shown.'' &
+First step begun, question asked, route used. \\
+Hands-on or digital work &
+Stable materials, role choices, debugging guide, sensory and movement options, meaningful extension. &
+``I noticed\ldots,'' ``I tested\ldots,'' ``I can try\ldots,'' or ``I need\ldots'' &
+Questions, revisions, contribution, tool access, peer dynamics. \\
+\rowcolor{SoftGray}
+Transition, break, and return &
+Warning, first/next visual, overlap, familiar support, nonpunitive reset area, named re-entry step. &
+``Not yet,'' ``more time,'' ``keep this with me,'' ``break,'' or ``I am ready to return.'' &
+Latency, distress, communication, recovery, successful entry or return. \\
+Closure and recognition &
+Protected time, prompt shown early, multiple response modes, optional Identity Bead or evidence card. &
+``Today I contributed by\ldots'' or a student-created alternative; private, shared, or passed. &
+Whose work was recognized, whose mode was accessible, what students want next. \\
+\end{longtable}
+\normalsize
+
+Zacarian and Silverstone's classroom-community planning reminds me that support begins before a problem: with names, language, accommodations, strengths, sensory and physical access, family communication, and important relationships \citep{zacarian2015community}. Family and student knowledge will be invited rather than extracted. No learner should have to disclose a diagnosis, trauma, poverty, culture, pain, or family hardship to earn an accessible route.
+
+\reviewsection{How I Will Know Whether the Plan Is Working}
+
+I will not count the number of positive statements students produce and call that success. My review data will include:
+
+\begin{itemize}
+  \item whether learners can choose or create believable language in an accessible mode;
+  \item whether requests for help, pause, refusal, another tool, or re-entry receive dependable responses;
+  \item whether students can identify evidence of contribution without adult prompting;
+  \item whose contributions receive peer and adult recognition and whose remain overlooked;
+  \item participation, recovery, communication, academic access, safety, and belonging;
+  \item student and family judgments about whether the strategy is useful, acceptable, and respectful;
+  \item adult implementation fidelity, including whether promised supports were actually available; and
+  \item whether changes in visible behavior are accompanied by increased trust and agency.
+\end{itemize}
+
+If students repeat the desired words while losing communication, regulation, trust, or access, the plan has failed. If a phrase does not help, the team should examine the language, the task, the support, the hypothesis, and adult implementation before deciding that the learner is resistant. PTR requires continued data-based revision, not loyalty to an intervention because adults designed it \citep{dunlap2019ptr}.
+
+\reviewsection{Puzzle Plan and EQUITAS: Changing the Story and the System}
+
+This plan is personal because I know how institutional descriptions can become internal language. As a Latino Dominican, bilingual, neurodivergent, and chronically ill learner and educator, I have experienced access barriers being interpreted as a character flaw: fatigue as lack of commitment, difficulty with an inaccessible process as irresponsibility, or communication difference as evidence that the thinking matters less. Positive self-talk cannot ask a student to correct privately a story that an inequitable system keeps producing publicly.
+
+The Puzzle Plan keeps the relevant pieces connected: lived experience, student work, communication, family knowledge, classroom design, data, research, culture, disability, tools, peers, and adult response. EQUITAS, as its heart, asks whose knowledge becomes credible evidence, whose competence is recognized, whose language or communication mode is treated as legitimate, and who is expected to sound confident before receiving support.
+
+Applied here, fairness does not mean giving every student the same affirmation. It means ensuring that students have real conditions from which believable, self-authored language can grow. One learner may use an internal phrase, another may point to an evidence card, another may keep a bead, another may reject the activity, and another may need the environment changed before any reframing is appropriate. Inclusion means that none of those routes lowers the learner's right to rigor, dignity, or belonging.
+
+\reviewsection{Conclusion}
+
+My positive classroom support plan begins before self-talk. It begins with a visible learning route, multiple ways to communicate and participate, sensory and regulation access, meaningful choices, family and student knowledge, and adults willing to revise the environment. Within those conditions, positive self-talk can become a useful bridge from uncertainty to action.
+
+The Identity Beads experience clarified what that bridge can look like. Youth did real work first. Reflection then helped make contribution visible, and recognition expanded the language available for identity. The bead was not the evidence, and the adult did not own the meaning. The strongest message was not ``Be positive.'' It was ``Look at what you did, decide what it means to you, and choose what you want to carry forward.''
+
+That is the classroom culture I want to build: one in which students can name barriers without being defined by them, recognize strengths without pretending difficulty is gone, communicate boundaries without losing belonging, and use evidence to author identities larger than any diagnosis, behavior, score, or adult interpretation.
+
+\small
+\bibliography{references}
+
+\end{document}
