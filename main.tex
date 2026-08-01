@@ -31,7 +31,16 @@
 \definecolor{SoftGray}{HTML}{F4F4F4}
 \definecolor{MidTeal}{HTML}{287D7A}
 
-\hypersetup{colorlinks=true,linkcolor=DeepNavy,urlcolor=DeepNavy,citecolor=DeepNavy}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=DeepNavy,
+  urlcolor=DeepNavy,
+  citecolor=DeepNavy,
+  pdftitle={Words That Have Evidence: A Dignity-Centered Positive Classroom Support Plan},
+  pdfauthor={Piter Zacari Garcia Bautista},
+  pdfsubject={EDE 448 Module 2 Positive Classroom Support Plan},
+  pdfkeywords={positive classroom support, positive self-talk, productive failure, Identity Beads, Puzzle Plan, EQUITAS}
+}
 \setlength{\parindent}{0pt}
 \setstretch{1.08}
 \setlist[itemize]{leftmargin=0.23in,itemsep=0.025in,topsep=0.05in}
@@ -154,6 +163,55 @@ Work on reading intervention similarly treats recognizing negative thoughts and 
 
 No learner will be required to say these words aloud, disclose an internal thought, or adopt a teacher-written affirmation. Self-talk may remain internal or be represented through text, symbols, AAC, gesture, a private card, a digital prompt, or partner-supported communication. Jorgensen's call to construct communicative competence means that the classroom must make those routes available throughout the day, including during stress, refusal, transition, and repair \citep{jorgensen2018competence}.
 
+\reviewsection{Who Decides Whether Failure Is Negative?}
+
+Schools and society often teach a hidden equation: an unsuccessful result is negative, and a person who produces it is less capable, less intelligent, or less worthy. Adults teach that equation through grades that erase revision, public comparison, praise reserved for speed and first-try correctness, and language such as ``you failed'' rather than ``this attempt did not yet meet the goal.'' A child can then inherit an adult judgment as self-talk: ``I failed, therefore I am a failure.''
+
+I want to teach a more accurate distinction. Language that threatens safety, encourages self-harm, dehumanizes, or attacks a person's identity is harmful and requires protection and repair. An error, uncertainty, frustration, disappointment, or an attempt that did not work is different. It can be painful or uncomfortable without being evidence of a bad learner. We can name real harm without defining the harmed student, the student's emotion, or an ordinary learning experience as negative.
+
+Learning research supports this reframing, with important conditions. A review of error-based learning found that errors can strengthen learning when they are followed by corrective feedback and analysis of the reasoning that produced them; error tolerance can also support active exploration \citep{metcalfe2017errors}. A meta-analysis of problem-solving-before-instruction designs found benefits for conceptual knowledge and transfer when Productive Failure principles were implemented with fidelity, while also identifying differences by age and learning goal \citep{sinha2021productivefailure}. Failure does not teach automatically. It becomes usable learning when students have low-stakes opportunities, accessible feedback, instruction, reflection, support, and another attempt.
+
+Mastery is not a record of unbroken success. It is a history of attempts, feedback, revision, changed strategies, and increasingly informed judgment. Nobody becomes an expert because every first attempt worked; expertise grows in part from learning what did not work, why it did not work, and what to change next.
+
+This changes the language I will model and invite students to adapt:
+
+\begin{itemize}
+  \item ``I failed at this attempt, and now I know what did not work. I am better informed than I was yesterday.''
+  \item ``I do not know this yet, but I learned \underline{\hspace{0.75in}}. I can use that evidence for the next part.''
+  \item ``I will learn this the way I learned \underline{\hspace{0.75in}}: with time, practice, feedback, support, and more than one route.''
+  \item ``The strategy failed; I did not become a failure.''
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  meaningflow/.style={-{Latex[length=2.3mm]}, line width=0.8pt, draw=DeepNavy},
+  eventbox/.style={draw=DeepNavy, rounded corners=2pt, fill=SoftGold,
+    text width=3.25in, align=center, inner sep=6pt, font=\small},
+  judgmentbox/.style={draw=PrimaryRed, rounded corners=2pt, fill=SoftRose,
+    text width=2.82in, align=center, inner sep=6pt, font=\small},
+  evidencebox/.style={draw=MidTeal, rounded corners=2pt, fill=SoftGreen,
+    text width=2.82in, align=center, inner sep=6pt, font=\small},
+  guardrail/.style={draw=DeepNavy, dashed, rounded corners=2pt, fill=SoftBlue,
+    text width=6.42in, align=center, inner sep=5pt, font=\small}
+]
+\node[eventbox] (attempt) {\textbf{Same event:} an attempt does not yet reach the intended goal};
+\node[judgmentbox, below=0.28in of attempt, xshift=-1.62in] (deficit) {\textbf{Adults attach a deficit story}\\``Failure is bad. You should have known. This says who you are.''};
+\node[evidencebox, below=0.28in of attempt, xshift=1.62in] (learning) {\textbf{Adults teach an evidence story}\\``This result gives information. Let us find what changed and what support comes next.''};
+\node[judgmentbox, below=0.16in of deficit] (narrow) {Shame, concealment, avoidance, masking, and fewer chances to learn};
+\node[evidencebox, below=0.16in of learning] (expand) {Feedback, reflection, revision, another route or attempt, and new evidence of growth};
+\node[guardrail, below=0.22in of narrow, xshift=1.62in] (guardrail) {\textbf{EQUITAS guardrail:} Separate the outcome from the learner's worth. Do not romanticize harm or withhold instruction. Remove barriers, make feedback accessible, preserve belonging, and let the learner help name what the experience means.};
+\draw[meaningflow] (attempt.south) -- (deficit.north);
+\draw[meaningflow] (attempt.south) -- (learning.north);
+\draw[meaningflow] (deficit) -- (narrow);
+\draw[meaningflow] (learning) -- (expand);
+\draw[meaningflow] (narrow) -- (guardrail);
+\draw[meaningflow] (expand) -- (guardrail);
+\end{tikzpicture}
+\caption{The unsuccessful attempt is the same; adult language, social meaning, and available support shape what the learner is positioned to carry forward. The left path is not caused by failure itself.}
+\label{fig:failure-meaning}
+\end{figure}
+
 \reviewsection{What Identity Beads Taught Me About Evidence and Recognition}
 
 The EDU486 Invisible Invaders camp made this idea concrete. On July 28, youth sieved saved sand, documented litter, examined tire-wear residue, participated in a synthetic-tissue filtration model, and discussed environmental questions. At the end of the day, the Identity Beads activity invited them to recognize forms of participation they had demonstrated, including designing, investigating, inventing, advocating, motivating, storytelling, bravery, care for others, and a self-described contribution \citep{campteam2026day3,campteam2026identity}.
@@ -220,8 +278,8 @@ Make the lesson route visible; model the first step; reduce unnecessary language
 Students can see what is required, choose among meaningful routes, keep an effective familiar tool, request more time or a break, observe first, pass, and re-enter without shame. \\
 \rowcolor{SoftGray}
 Teach &
-Model the difference among a thought, feeling, fact, need, and action. Use examples from ordinary academic errors. Teach learners to locate evidence, select believable words, and connect those words to a support or next move. &
-Students may create, select, type, point to, speak, sign, or internally use a phrase. They may reject an adult's wording and propose language that fits their experience. \\
+Model the difference among a thought, feeling, fact, need, action, outcome, and identity. Use ordinary academic errors to teach that an unsuccessful attempt is information, not a moral judgment. Teach learners to connect evidence to feedback, support, and a next move. &
+Students may create, select, type, point to, speak, sign, or internally use a phrase. They may reject an adult's wording, identify what an attempt taught them, and propose language that fits their experience. \\
 Reinforce &
 Make the communication effective; recognize observable contribution with consent; give specific private or public feedback according to preference; notice quiet and nontraditional participation; revise inaccessible routines. &
 Self-advocacy leads to an actual response. Recognition strengthens communication, contribution, repair, persistence, and belonging rather than eye contact, stillness, speed, or cheerful compliance. \\
@@ -251,9 +309,9 @@ Sensory load, pain, or fatigue &
 ``My body is giving me information. I can adjust, pause, or use a lower-energy route.'' &
 Quieter location, sensory tool, movement, seating change, familiar device, break, or visible re-entry point. \\
 \rowcolor{SoftGray}
-An error or unexpected result &
-``This result is evidence. I can test one change.'' &
-Debugging guide, comparison example, material reset, peer consultation, or another trial. \\
+An unsuccessful attempt or unexpected result &
+``This attempt did not reach the goal, and it taught me what did not work. I can use that evidence to revise.'' &
+Specific feedback, error analysis, comparison example, debugging guide, material reset, chosen support, or another low-stakes trial. \\
 Peer conflict or boundary &
 ``I can say stop, name what happened, and ask for help repairing it.'' &
 Speech, writing, symbols, AAC, private report, mediation, recovery time, and a clear re-entry plan. \\
@@ -306,7 +364,7 @@ Purpose, short model, one direction, visual example, processing time. &
 First step begun, question asked, route used. \\
 Hands-on or digital work &
 Stable materials, role choices, debugging guide, sensory and movement options, meaningful extension. &
-``I noticed\ldots,'' ``I tested\ldots,'' ``I can try\ldots,'' or ``I need\ldots'' &
+``I noticed\ldots,'' ``I tested\ldots,'' ``My first attempt taught me\ldots,'' ``I can try\ldots,'' or ``I need\ldots'' &
 Questions, revisions, contribution, tool access, peer dynamics. \\
 \rowcolor{SoftGray}
 Transition, break, and return &
@@ -328,6 +386,7 @@ I will not count the number of positive statements students produce and call tha
 
 \begin{itemize}
   \item whether learners can choose or create believable language in an accessible mode;
+  \item whether learners can separate an outcome from their worth and identify what an unsuccessful attempt taught them without being forced to describe harm as positive;
   \item whether requests for help, pause, refusal, another tool, or re-entry receive dependable responses;
   \item whether students can identify evidence of contribution without adult prompting;
   \item whose contributions receive peer and adult recognition and whose remain overlooked;
@@ -345,11 +404,15 @@ This plan is personal because I know how institutional descriptions can become i
 
 The Puzzle Plan keeps the relevant pieces connected: lived experience, student work, communication, family knowledge, classroom design, data, research, culture, disability, tools, peers, and adult response. EQUITAS, as its heart, asks whose knowledge becomes credible evidence, whose competence is recognized, whose language or communication mode is treated as legitimate, and who is expected to sound confident before receiving support.
 
+EQUITAS also asks who is allowed to fail safely. Some students receive time, coaching, revision, and the assumption that they will improve; others have a first error treated as proof that they do not belong. Fairness requires changing that social meaning. I will not pretend that every harmful event was ``for the best,'' but I will refuse the equation that a painful or unsuccessful experience makes the learner negative. We can interrupt harm, preserve the truth of what happened, and still help students use experience as part of the foundation from which they build their own world.
+
 Applied here, fairness does not mean giving every student the same affirmation. It means ensuring that students have real conditions from which believable, self-authored language can grow. One learner may use an internal phrase, another may point to an evidence card, another may keep a bead, another may reject the activity, and another may need the environment changed before any reframing is appropriate. Inclusion means that none of those routes lowers the learner's right to rigor, dignity, or belonging.
 
 \reviewsection{Conclusion}
 
 My positive classroom support plan begins before self-talk. It begins with a visible learning route, multiple ways to communicate and participate, sensory and regulation access, meaningful choices, family and student knowledge, and adults willing to revise the environment. Within those conditions, positive self-talk can become a useful bridge from uncertainty to action.
+
+I will teach failure explicitly as an event and a source of evidence, not as an identity. A learner may say, ``I failed at this attempt, and I know more than I knew before,'' because the classroom provides feedback, support, revision, and another chance. The point is not to make failure sound pleasant. The point is to stop society's judgment from turning one result into a verdict about a person's intelligence, character, or future.
 
 The Identity Beads experience clarified what that bridge can look like. Youth did real work first. Reflection then helped make contribution visible, and recognition expanded the language available for identity. The bead was not the evidence, and the adult did not own the meaning. The strongest message was not ``Be positive.'' It was ``Look at what you did, decide what it means to you, and choose what you want to carry forward.''
 
